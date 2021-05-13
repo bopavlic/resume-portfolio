@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Borna Pavlić</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./resources/style.css" />
+    <!-- icons -->
+    <script
+      src="https://kit.fontawesome.com/636e50ca67.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <h1 class="name-logo">Borna Pavlić</h1>
+        <ul class="nav-links links">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#aboutMe">ABOUT ME</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <div class="nav-right">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/profile.php?id=100004158181114"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/borna-pavli%C4%87-47764420a/"
+            ><i class="fab fa-linkedin-in fa-2x"></i
+          ></a>
+          <a target="_blank" href="https://github.com/bopavlic"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+        </div>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </nav>
+    <div class="dark-blue">
+      <div class="banner">
+        <h1 class="personal-resume">PERSONAL RESUME</h1>
+        <p class="this-web">This website combines HTML, CSS and JS</p>
+        <div class="banner-btn">
+          <a href="https://europa.eu/!qX73UR" download target="_blank"
+            ><button class="btn">
+              <i class="fas fa-folder-open"></i> Open
+            </button></a
+          >
+        </div>
+        <img class="myself" src="./resources/images/me.png" alt="This is me" />
+      </div>
+    </div>
+    <div class="about-me" id="aboutMe">
+      <h1 class="ab-me">ABOUT ME</h1>
+      <img class="mee" src="resources/images/borna.jpg" />
+    </div>
+    <hr />
+    <!-- Section about myself -->
+    <div class="small-talk">
+      <div class="my-text">
+        <p>
+          Hello! My name is Borna Pavlić and I'm coming from Karlovac, Croatia.
+          I am 23 years old and everyday I learn some new skill to become junior
+          front end developer. Currently I am studying economics at the
+          University of Rijeka and I am on my final year!
+        </p>
+        <br />
+        <p>
+          I've been doing web development for about 1 year now. I have
+          experience in html, css, js, react ...
+        </p>
+        <br />
+        <p>
+          When I am not on the cumputer, I enjoy skiing, hanging around with
+          friends and petting dogs :D.
+        </p>
+      </div>
+      <div class="my-img"><img src="./resources/images/about-photo.jpg" /></div>
+    </div>
+    <!-- projects -->
+    <div class="about-me">
+      <h1 id="projects" class="ab-me">PROJECTS</h1>
+    </div>
+    <hr />
+    <div class="projects">
+      <div class="prjct">
+        <a href="https://bopavlic.github.io/RandomHexBgColor/" target="_blank"
+          ><img class="project" src="./resources/images/jedan.jpg" alt="" />
+        </a>
+      </div>
+      <div class="prjct">
+        <a href="https://bopavlic.github.io/form-validation/" target="_blank"
+          ><img class="project" src="./resources/images/dva.jpg" alt=""
+        /></a>
+      </div>
+      <div class="prjct">
+        <a href="https://bopavlic.github.io/Quotes-generator/" target="_blank"
+          ><img class="project" src="./resources/images/tri.jpg" alt=""
+        /></a>
+      </div>
+    </div>
+
+    <div class="grass">
+      <div class="contact">
+        <!-- Starting form -->
+        <!-- First-->
+        <form method="POST" class="form" id="form">
+          <h1 id="contact" class="title-for">CONTACT ME</h1>
+          <div class="form-control">
+            <label for="">Name: </label>
+            <input
+              class="name"
+              type="text"
+              placeholder="Your Name"
+              id="username"
+              required
+            />
+          </div>
+          <!-- 2nd-->
+          <div class="form-control">
+            <label for="">Email: </label>
+            <input type="email" placeholder="name@gmail.com" id="email" />
+          </div>
+          <!-- 3rd-->
+          <div class="form-control">
+            <label>Your message: </label>
+            <textarea
+              class="message"
+              name=""
+              id=""
+              cols="62"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+        <!-- Ending form -->
+      </div>
+
+      <p class="invs">
+        1 <br />
+        2 <br />
+        3 <br />. <br />. <br />. <br />1 <br />1 <br />5 <br />6
+      </p>
+    </div>
+    <footer>
+      <div class="ending">
+        <h2>© 2021 Borna Pavlić. All rights reserved.</h2>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
