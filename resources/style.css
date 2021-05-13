@@ -12,7 +12,6 @@ body {
   background-repeat: repeat-x;
   background-size: contain;
   background-position: center center;
-  min-width: 300px;
 }
 
 .burger {
@@ -391,10 +390,15 @@ textarea {
     align-items: center;
     transform: translateX(100%);
     transition: transform 0.5s ease-in-out;
-    padding: 25px;
     font-size: 5rem;
     overflow: hidden;
     position: fixed;
+  }
+
+  .sm {
+    justify-self: center;
+    align-self: center;
+    margin-left: 70px;
   }
 
   .burger {
@@ -533,17 +537,20 @@ textarea {
 @media only screen and (max-width: 768px) and (min-width: 481px) {
   .nav-links {
     position: absolute;
-    top: 8vh;
+    top: 0;
     right: 0;
-    background-color: yellow;
-    height: 92vh;
+    background-color: #b4dffe;
+    height: 100%;
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     transform: translateX(100%);
     transition: transform 0.5s ease-in-out;
+    font-size: 5rem;
+    overflow: hidden;
+    position: fixed;
   }
 
   .burger {
