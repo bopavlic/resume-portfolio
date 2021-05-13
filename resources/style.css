@@ -400,7 +400,6 @@ textarea {
   .burger {
     display: block;
     cursor: pointer;
-    border: 1px solid red;
   }
   .small-talk {
     grid-template-columns: 1fr;
@@ -550,7 +549,6 @@ textarea {
   .burger {
     display: block;
     cursor: pointer;
-    border: 1px solid red;
   }
 
   .myself {
