@@ -405,6 +405,7 @@ textarea {
   .small-talk {
     grid-template-columns: 1fr;
     grid-template-rows: 350px 500px;
+    gap: 50px;
   }
 
   .projects {
@@ -415,6 +416,10 @@ textarea {
 
   .my-img {
     justify-self: center;
+  }
+
+  .smallerImg {
+    width: 300px;
   }
 
   .nav-left,
@@ -555,6 +560,7 @@ textarea {
   .small-talk {
     grid-template-columns: 1fr;
     grid-template-rows: 350px 500px;
+    gap: 50px;
   }
 
   .projects {
