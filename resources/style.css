@@ -67,15 +67,13 @@ nav {
 }
 
 .name-logo {
-  font-family: "Itim", cursive;
+  font-family: "Itim";
   letter-spacing: 1px;
 }
 
 .links {
   margin-left: 0px;
-  align-self: center;
   font-family: "Lato", sans-serif;
-
   min-width: 400px;
 }
 
@@ -215,7 +213,6 @@ nav i {
 
 .ab-me {
   text-align: center;
-  flex-direction: row;
   margin-top: 40px;
   margin-right: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -395,6 +392,11 @@ textarea {
     position: fixed;
   }
 
+  .personal-resume,
+  .this-web {
+    margin-left: 0px;
+  }
+
   .sm {
     justify-self: center;
     align-self: center;
@@ -430,63 +432,6 @@ textarea {
     display: none;
   }
 
-  /* burger
-
-  .menu-btn {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    width: 60px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .menu-btn-burger {
-    width: 50px;
-    height: 6px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .menu-btn-burger::before,
-  .menu-btn-burger::after {
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 6px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .menu-btn-burger::before {
-    transform: translateY(-16px);
-  }
-  .menu-btn-burger::after {
-    transform: translateY(16px);
-  }
-
-  .menu-btn.open .menu-btn-burger {
-    transform: translateX(-50px);
-    background: transparent;
-    box-shadow: none;
-  }
-
-  .menu-btn.open .menu-btn-burger::before {
-    transform: rotate(45deg) translate(35px, -35px);
-  }
-
-  .menu-btn.open .menu-btn-burger::after {
-    transform: rotate(-45deg) translate(35px, 35px);
-  }
-
-  /* end of animations */
-
   .dark-blue {
     background-image: none;
     margin-bottom: 20px;
@@ -503,6 +448,7 @@ textarea {
 
   .btn {
     position: static;
+    margin-left: 0px;
   }
 
   .banner-btn {
@@ -553,6 +499,11 @@ textarea {
     position: fixed;
   }
 
+  .personal-resume,
+  .this-web {
+    margin-left: 0px;
+  }
+
   .burger {
     display: block;
     cursor: pointer;
@@ -582,64 +533,6 @@ textarea {
     display: none;
   }
 
-  /* burger 
-
-  .menu-btn {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    width: 60px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .menu-btn-burger {
-    width: 50px;
-    height: 6px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .menu-btn-burger::before,
-  .menu-btn-burger::after {
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 6px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .menu-btn-burger::before {
-    transform: translateY(-16px);
-  }
-  .menu-btn-burger::after {
-    transform: translateY(16px);
-  }
-
- 
-  .menu-btn.open .menu-btn-burger {
-    transform: translateX(-50px);
-    background: transparent;
-    box-shadow: none;
-  }
-
-  .menu-btn.open .menu-btn-burger::before {
-    transform: rotate(45deg) translate(35px, -35px);
-  }
-
-  .menu-btn.open .menu-btn-burger::after {
-    transform: rotate(-45deg) translate(35px, 35px);
-  }
-
-  end of animations */
-
   .dark-blue {
     background-image: none;
     margin-bottom: 20px;
@@ -656,6 +549,7 @@ textarea {
 
   .btn {
     position: static;
+    margin-left: 0px;
   }
 
   .banner-btn {
