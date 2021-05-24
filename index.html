@@ -126,36 +126,42 @@
       <div class="contact">
         <!-- Starting form -->
         <!-- First-->
-        <form method="POST" class="form" id="form">
+        <form method="POST" class="form" id="form" action="contactform.php">
           <h1 id="contact" class="title-for">CONTACT ME</h1>
           <div class="form-control">
-            <label for="">Name: </label>
+            <label for="name">Name: </label>
             <input
               class="name"
               type="text"
               placeholder="Your Name"
               id="username"
+              name="name"
               required
             />
           </div>
           <!-- 2nd-->
           <div class="form-control">
-            <label for="">Email: </label>
-            <input type="email" placeholder="name@gmail.com" id="email" />
+            <label for="mail">Email: </label>
+            <input
+              name="mail"
+              type="email"
+              placeholder="name@gmail.com"
+              id="email"
+            />
           </div>
           <!-- 3rd-->
           <div class="form-control">
-            <label>Your message: </label>
+            <label for="message">Your message: </label>
             <textarea
               class="message"
-              name=""
+              name="message"
               id=""
               cols="62"
               rows="10"
               required
             ></textarea>
           </div>
-          <button type="submit">Submit</button>
+          <button name="submit" type="submit">Submit</button>
         </form>
         <!-- Ending form -->
       </div>
